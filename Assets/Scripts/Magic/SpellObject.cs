@@ -16,7 +16,7 @@ public class SpellObject : ScriptableObject
 
     public void Cast()
     { 
-        var effect =  Instantiate(ParticleEffect, Targets.caster.transform.position, Quaternion.identity);
+        var effect =  Instantiate(ParticleEffect, Targets.caster.transform.position, Quaternion.LookRotation(Targets.caster.transform.forward));
         Destroy(effect, Damage.Duration);   
         Debug.Log("Effect Instantiated");     
     }
