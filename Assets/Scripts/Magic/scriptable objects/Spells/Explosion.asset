@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6d2a44e5e37584a85352234cede6b6, type: 3}
+  m_Name: Explosion
+  m_EditorClassIdentifier: 
+  Id: 0
+  Name: 
+  Icon: {fileID: 0}
+  ParticleEffect: {fileID: 1879769179923522, guid: 65932b7368590234d8163da03c2055d8, type: 3}
+  ManaCost: 0
+  Targets: {fileID: 11400000, guid: 20d5ad1c6aefda4499a3c7cba1d8bc2d, type: 2}
+  DamageType: {fileID: 11400000, guid: 77419a06d3c33ab409b837883a251a92, type: 2}
