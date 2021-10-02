@@ -18,4 +18,4 @@ MonoBehaviour:
   ParticleEffect: {fileID: 1879769179923522, guid: 65932b7368590234d8163da03c2055d8, type: 3}
   ManaCost: 0
   Targets: {fileID: 11400000, guid: 20d5ad1c6aefda4499a3c7cba1d8bc2d, type: 2}
-  DamageType: {fileID: 11400000, guid: 77419a06d3c33ab409b837883a251a92, type: 2}
+  Damage: {fileID: 11400000, guid: 77419a06d3c33ab409b837883a251a92, type: 2}

@@ -10,21 +10,24 @@ public class TargetTypeSO : ScriptableObject
     public GameObject caster;
     public TargetType _type;
     public int TargetRange;
-    public float EffectRadius;
+    public float EffectRadius = 1;
 
     public List<Health> Get()
     {       
         Vector3 origin = new Vector3(); 
+        List<Health> targets = new List<Health>();
         if(_type.HasFlag(TargetType.Self))
         {
             origin = caster.transform.position;                   
         }
 
-        List<Health> targets = new List<Health>();
+        
         foreach (var target in Physics.OverlapSphere(origin, EffectRadius))
         {
-            targets.Add(target.GetComponent<Health>());
+            var obj = target.GetComponent<Health>();
+            if(obj != null) targets.Add(obj);
         } 
+        Debug.Log($"{targets.Count} Health targets found");
 
         return targets;
     }
