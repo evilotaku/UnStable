@@ -9,8 +9,9 @@ public class SpellBook : MonoBehaviour
     
     public void CastRandomSpell()
     {
-        var spell = Spells[Random.Range(0, Spells.Count)];        
-        Destroy(Instantiate(spell.ParticleEffect, transform.position, Quaternion.identity, transform),spell.DamageType.Duration);
+        var spell = Spells[Random.Range(0, Spells.Count)];
+        spell.Targets.caster = gameObject;               
+        spell.Cast();
     }
 
     public void OnSpellCast(InputValue value)
