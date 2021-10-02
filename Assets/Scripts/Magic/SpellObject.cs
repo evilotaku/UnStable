@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(menuName ="Magic/Spell")]
@@ -14,13 +15,9 @@ public class SpellObject : ScriptableObject
     public DamageTypeSO Damage;
 
     public void Cast()
-    {    
-        Destroy(Instantiate(ParticleEffect, Targets.Get()[0].transform.position, Quaternion.identity, Targets.caster.transform),Damage.Duration);   
-        foreach (var target in Targets.Get())
-        {
-            if(Targets.caster == target.gameObject) return;
-            target.DealDamage(Damage.Type, Damage.Amount);
-        } 
-                
+    { 
+        var effect =  Instantiate(ParticleEffect, Targets.caster.transform.position, Quaternion.identity);
+        Destroy(effect, Damage.Duration);   
+        Debug.Log("Effect Instantiated");     
     }
 }

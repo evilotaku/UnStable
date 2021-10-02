@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a6d2a44e5e37584a85352234cede6b6, type: 3}
-  m_Name: Confetti
+  m_Name: Missle
   m_EditorClassIdentifier: 
   Id: 0
-  Name: Confetti
+  Name: 
   Icon: {fileID: 0}
-  ParticleEffect: {fileID: 1670336210522388, guid: 19c065b476ca9a24e839e181a781c36c, type: 3}
+  ParticleEffect: {fileID: 1834646129351440, guid: 5599f31b19e20c94ca2378f95f7646b2, type: 3}
   ManaCost: 0
   Targets: {fileID: 11400000, guid: 20d5ad1c6aefda4499a3c7cba1d8bc2d, type: 2}
   Damage: {fileID: 11400000, guid: 77419a06d3c33ab409b837883a251a92, type: 2}

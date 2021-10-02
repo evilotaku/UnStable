@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6914907bc34ad940bc8a12484694ee8, type: 3}
   m_Name: Self
   m_EditorClassIdentifier: 
-  Type: 1
-  Range: 0
+  caster: {fileID: 0}
+  _type: 1
+  TargetRange: 1
+  EffectRadius: 1
