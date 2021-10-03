@@ -17,12 +17,8 @@ public class Health : MonoBehaviour
 
     }
 
-    public void ApplyEffect(EffectType _type, float duration, int strength)
-    {
-        
-    }
 
-    IEnumerator StatusEffect(EffectType _type, float duration, int strength)
+    public IEnumerator StatusEffect(EffectType _type, float duration, int strength)
     {
         var currentMove = _controller.MoveSpeed;
         var currentDamageMod = DamageMod;

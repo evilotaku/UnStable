@@ -25,10 +25,10 @@ public class SpellObject : ScriptableObject
             Debug.Log($"{target.name} targeted by spell!");
             if(target.gameObject == caster) return;
             target.DealDamage(Damage.Type, Damage.Amount);
-            foreach (var item in Effects)
-            {
-                target.ApplyEffect(item._type, item.Duration, item.Strength);
-                Destroy(Instantiate(item.particleEffect, target.transform.position,Quaternion.identity), item.Duration);
+            foreach (var _effect in Effects)
+            {                
+                target.StartCoroutine(target.StatusEffect(_effect._type, _effect.Duration, _effect.Strength));
+                Destroy(Instantiate(_effect.particleEffect, target.transform.position,Quaternion.identity), _effect.Duration);
             }  
         } 
 
