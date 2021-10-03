@@ -6,9 +6,11 @@ using UnityEngine.InputSystem;
 public class SpellBook : MonoBehaviour
 {
     public List<SpellObject> Spells;
+    public List<AudioClip> voices;
+    AudioSource audio;
     void Start()
     {
-        
+        audio = GetComponent<AudioSource>();
     }
     
     public void CastRandomSpell()
@@ -16,7 +18,8 @@ public class SpellBook : MonoBehaviour
         var spell = Spells[Random.Range(0, Spells.Count)]; 
         spell.Targets.caster = gameObject; 
         print($"{spell.Targets.caster} is casting {spell.name}");                     
-        spell.Cast(gameObject);      
+        spell.Cast(gameObject);
+        audio.PlayOneShot(voices[Random.Range(0, voices.Count)]);      
            
     }
 
