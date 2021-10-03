@@ -9,9 +9,8 @@ public class Follower : MonoBehaviour
   public float MinDistance = 75;
   public float AllowedDistance = 20;
   public float BufferDistance = 30;
-  public GameObject TheFollower;
   public float FollowSpeed = 0.2f;
-  public RaycastHit Shot;
+  public RaycastHit Shot; // maybe raycast to check if animal can see you
   // Update is called once per frame
   void Update()
   {
@@ -19,7 +18,7 @@ public class Follower : MonoBehaviour
 
     if (distance < BufferDistance)
     {
-
+      // reset
     }
     else if (distance > AllowedDistance && distance < MinDistance)
     {
