@@ -16,6 +16,8 @@ MonoBehaviour:
   Name: Confetti
   Icon: {fileID: 0}
   ParticleEffect: {fileID: 1233254026376546, guid: b6ac78dbb6751514392e2f44f82cc21f, type: 3}
+  SoundEffect: {fileID: 8300000, guid: 926635932a24c624ba0c78b62179454c, type: 3}
   ManaCost: 0
   Targets: {fileID: 11400000, guid: 20d5ad1c6aefda4499a3c7cba1d8bc2d, type: 2}
   Damage: {fileID: 11400000, guid: 77419a06d3c33ab409b837883a251a92, type: 2}
+  Effects: []

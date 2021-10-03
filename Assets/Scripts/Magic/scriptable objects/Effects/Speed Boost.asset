@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Speed Boost
   m_EditorClassIdentifier: 
   _type: 1
-  particleEffect: {fileID: 0}
+  particleEffect: {fileID: 1497030318103322, guid: 3313c584bfb0ca54584fe5b29871dfc2, type: 3}
   Duration: 5
   Strength: 1

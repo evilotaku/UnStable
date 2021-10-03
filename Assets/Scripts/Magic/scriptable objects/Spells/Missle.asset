@@ -16,6 +16,8 @@ MonoBehaviour:
   Name: 
   Icon: {fileID: 0}
   ParticleEffect: {fileID: 1834646129351440, guid: 5599f31b19e20c94ca2378f95f7646b2, type: 3}
+  SoundEffect: {fileID: 8300000, guid: 189c47c2dcf5c7449845b411a74a1db1, type: 3}
   ManaCost: 0
   Targets: {fileID: 11400000, guid: 20d5ad1c6aefda4499a3c7cba1d8bc2d, type: 2}
   Damage: {fileID: 11400000, guid: 77419a06d3c33ab409b837883a251a92, type: 2}
+  Effects: []
