@@ -4,13 +4,42 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int currentHealth;
+    public float currentHealth;
+    public float Mana;
+
+    public float DamageMod = 0;
+    StarterAssets.ThirdPersonController _controller;
 
     public void DealDamage(DamageType _type, int amount)
     {
-        currentHealth -= amount;
+        currentHealth -= amount - (amount*DamageMod);
         if(currentHealth <= 0) Die();
 
+    }
+
+    public void ApplyEffect(EffectType _type, float duration, int strength)
+    {
+        
+    }
+
+    IEnumerator StatusEffect(EffectType _type, float duration, int strength)
+    {
+        var currentMove = _controller.MoveSpeed;
+        var currentDamageMod = DamageMod;
+        if(_type == EffectType.Movement)
+        {
+            _controller.MoveSpeed += (strength*currentMove);
+        }
+        if(_type == EffectType.Armor)
+        {
+            DamageMod = strength;
+        }
+        
+
+        yield return new WaitForSeconds(duration);
+
+        _controller.MoveSpeed = currentMove;
+        DamageMod = currentDamageMod;
     }
 
     void Die()

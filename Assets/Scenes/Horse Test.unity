@@ -7382,6 +7382,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3a76f9fa2ec9fbe49a9e9ddeedebd7e7, type: 2}
   - {fileID: 11400000, guid: ea06166d37c276341a6bb008112f027e, type: 2}
   - {fileID: 11400000, guid: 9fabb5a2ed89b5c49bef29f76f73f1c7, type: 2}
+  - {fileID: 11400000, guid: f0ec461b2c6753241a486a4733500f82, type: 2}
+  - {fileID: 11400000, guid: 267fabcffb623de4096724d9a9b2b5ac, type: 2}
 --- !u!114 &1729804511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7395,6 +7397,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 100
+  Mana: 0
+  DamageMod: 0
 --- !u!1 &1746750673
 GameObject:
   m_ObjectHideFlags: 0
