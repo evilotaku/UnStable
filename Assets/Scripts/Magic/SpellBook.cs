@@ -7,10 +7,13 @@ public class SpellBook : MonoBehaviour
 {
     public List<SpellObject> Spells;
     public List<AudioClip> voices;
+    public AudioClip footsteps;
+    Animator animator;
     AudioSource audio;
     void Start()
     {
         audio = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
     }
     
     public void CastRandomSpell()
@@ -26,5 +29,14 @@ public class SpellBook : MonoBehaviour
     public void OnSpellCast(InputValue value)
     {
         CastRandomSpell();
+    }
+
+    void Update()
+    {
+        if(animator.GetFloat("Speed") > 1)
+        {
+            audio.clip = footsteps;
+            audio.Play();
+        } 
     }
 }

@@ -8,6 +8,8 @@ public class Health : MonoBehaviour
     public float Mana;
 
     public float DamageMod = 0;
+
+
     StarterAssets.ThirdPersonController _controller;
 
     public void DealDamage(DamageType _type, int amount)
