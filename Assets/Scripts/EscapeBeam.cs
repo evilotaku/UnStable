@@ -15,4 +15,13 @@ public class EscapeBeam : MonoBehaviour
     {
         
     }
+
+  private void OnTriggerEnter(Collider other)
+  {
+    Follower follower = other.gameObject.GetComponent<Follower>();
+    if(follower != null)
+    {
+      follower.IsEscaping = true;
+    }
+  }
 }
