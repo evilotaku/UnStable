@@ -20,6 +20,8 @@ public class Follower : MonoBehaviour
   private void Start()
   {
     PM = Player.GetComponent<PlayerManager>();
+    if (!IsPenned)
+      transform.rotation = Quaternion.Euler(new Vector3(0, Random.Range(0, 360), 0));
   }
 
   void Update()
