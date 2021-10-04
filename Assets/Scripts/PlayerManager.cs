@@ -2,22 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
   public bool HasKey = false;
   private SphereCollider _FreedomRadius;
-    // Start is called before the first frame update
-    void Start()
-    {
-    _FreedomRadius = GetComponent<SphereCollider>();
-    
-    }
+  private Health _Health;
 
-    // Update is called once per frame
-    void Update()
-    {
-        //if(_FreedomRadius.enabled) _FreedomRadius.enabled = false;
+  public int AnimalsSaved = 0;
+
+  public Text HealthText;
+  public Text AnimalsSavedText;
+  // Start is called before the first frame update
+  void Start()
+  {
+    _FreedomRadius = GetComponent<SphereCollider>();
+    _Health = GetComponent<Health>();
+
+  }
+
+  // Update is called once per frame
+  void Update()
+  {
+    //if(_FreedomRadius.enabled) _FreedomRadius.enabled = false;
+    HealthText.text = "Health: " + _Health.currentHealth;
+    AnimalsSavedText.text = "Animals Saved: " + AnimalsSaved;
   }
 
   public void OnUseKey(InputValue value)

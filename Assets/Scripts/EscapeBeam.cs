@@ -22,6 +22,7 @@ public class EscapeBeam : MonoBehaviour
     if(follower != null)
     {
       follower.IsEscaping = true;
+      follower.PM.AnimalsSaved++;
     }
   }
 }

@@ -14,12 +14,12 @@ public class Follower : MonoBehaviour
   public bool IsEscaping;
   public bool IsPenned = true;
 
-  private PlayerManager _pm;
+  public PlayerManager PM;
   
 
   private void Start()
   {
-    _pm = Player.GetComponent<PlayerManager>();
+    PM = Player.GetComponent<PlayerManager>();
   }
 
   void Update()
