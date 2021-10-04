@@ -14,6 +14,8 @@ public class PlayerManager : MonoBehaviour
 
   public Text HealthText;
   public Text AnimalsSavedText;
+
+  public GameObject WinScreen;
   // Start is called before the first frame update
   void Start()
   {
@@ -28,6 +30,11 @@ public class PlayerManager : MonoBehaviour
     //if(_FreedomRadius.enabled) _FreedomRadius.enabled = false;
     HealthText.text = "Health: " + _Health.currentHealth;
     AnimalsSavedText.text = "Animals Saved: " + AnimalsSaved;
+
+    if(AnimalsSaved >= 40)
+    {
+      WinScreen.SetActive(true);
+    }
   }
 
   public void OnUseKey(InputValue value)
@@ -50,5 +57,10 @@ public class PlayerManager : MonoBehaviour
   {
     yield return new WaitForSeconds(1);
     _FreedomRadius.enabled = false;
+  }
+
+  public void Quit()
+  {
+    Application.Quit();
   }
 }
