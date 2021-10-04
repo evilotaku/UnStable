@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Standard
   m_EditorClassIdentifier: 
   Type: 2147483647
-  Amount: 0
+  Amount: 50
   Duration: 1
