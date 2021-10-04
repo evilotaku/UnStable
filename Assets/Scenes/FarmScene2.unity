@@ -152,6 +152,7 @@ MonoBehaviour:
   FollowSpeed: 0.1
   IsEscaping: 0
   IsPenned: 0
+  PM: {fileID: 0}
 --- !u!54 &23578627
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -355,6 +356,7 @@ MonoBehaviour:
   FollowSpeed: 0.1
   IsEscaping: 0
   IsPenned: 0
+  PM: {fileID: 0}
 --- !u!54 &79709496
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -413,6 +415,7 @@ MonoBehaviour:
   FollowSpeed: 0.1
   IsEscaping: 0
   IsPenned: 0
+  PM: {fileID: 0}
 --- !u!54 &84564772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1092,6 +1095,7 @@ MonoBehaviour:
   FollowSpeed: 0.1
   IsEscaping: 0
   IsPenned: 0
+  PM: {fileID: 0}
 --- !u!54 &308958711
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1657,6 +1661,7 @@ MonoBehaviour:
   FollowSpeed: 0.1
   IsEscaping: 0
   IsPenned: 0
+  PM: {fileID: 0}
 --- !u!54 &763170905
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2227,6 +2232,7 @@ MonoBehaviour:
   FollowSpeed: 0.1
   IsEscaping: 0
   IsPenned: 0
+  PM: {fileID: 0}
 --- !u!54 &1190358810
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2913,6 +2919,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HasKey: 0
+  AnimalsSaved: 0
+  HealthText: {fileID: 1967104301}
+  AnimalsSavedText: {fileID: 1742727915}
 --- !u!135 &1555206988
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3484,7 +3493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.05157528, g: 0.05157528, b: 0.5754717, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3494,7 +3503,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -4164,7 +4173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.05157528, g: 0.05157528, b: 0.5754717, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4174,7 +4183,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -4182,7 +4191,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Health: '
 --- !u!222 &1967104302
@@ -4423,6 +4432,7 @@ MonoBehaviour:
   FollowSpeed: 0.1
   IsEscaping: 0
   IsPenned: 0
+  PM: {fileID: 0}
 --- !u!54 &2099889189
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6790,6 +6800,7 @@ MonoBehaviour:
   FollowSpeed: 0.2
   IsEscaping: 0
   IsPenned: 1
+  PM: {fileID: 0}
 --- !u!54 &1364588950636419888
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7607,6 +7618,7 @@ MonoBehaviour:
   FollowSpeed: 0.2
   IsEscaping: 0
   IsPenned: 1
+  PM: {fileID: 0}
 --- !u!54 &2084029105557248837
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8880,6 +8892,7 @@ MonoBehaviour:
   FollowSpeed: 0.2
   IsEscaping: 0
   IsPenned: 1
+  PM: {fileID: 0}
 --- !u!54 &2578225861893612999
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8949,6 +8962,7 @@ MonoBehaviour:
   FollowSpeed: 0.2
   IsEscaping: 0
   IsPenned: 1
+  PM: {fileID: 0}
 --- !u!54 &2589919818478849897
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14287,6 +14301,7 @@ MonoBehaviour:
   FollowSpeed: 0.2
   IsEscaping: 0
   IsPenned: 1
+  PM: {fileID: 0}
 --- !u!54 &6001317049274716191
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14967,6 +14982,7 @@ MonoBehaviour:
   FollowSpeed: 0.2
   IsEscaping: 0
   IsPenned: 1
+  PM: {fileID: 0}
 --- !u!54 &6723026566970347634
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16377,6 +16393,7 @@ MonoBehaviour:
   FollowSpeed: 0.2
   IsEscaping: 0
   IsPenned: 1
+  PM: {fileID: 0}
 --- !u!54 &7805368427966514235
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16446,6 +16463,7 @@ MonoBehaviour:
   FollowSpeed: 0.2
   IsEscaping: 0
   IsPenned: 1
+  PM: {fileID: 0}
 --- !u!54 &7810562970495725213
 Rigidbody:
   m_ObjectHideFlags: 0
