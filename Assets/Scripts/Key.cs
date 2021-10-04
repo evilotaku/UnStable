@@ -15,7 +15,7 @@ public class Key : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-    gameObject.transform.Rotate(new Vector3(1, 1, 0));
+    gameObject.transform.Rotate(new Vector3(Time.deltaTime * 60, Time.deltaTime * 60, 0));
   }
 
   private void OnTriggerEnter(Collider other)
