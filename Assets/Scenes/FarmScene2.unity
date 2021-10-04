@@ -151,6 +151,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.1
   IsEscaping: 0
+  IsPenned: 0
 --- !u!54 &23578627
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -353,6 +354,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.1
   IsEscaping: 0
+  IsPenned: 0
 --- !u!54 &79709496
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -410,6 +412,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.1
   IsEscaping: 0
+  IsPenned: 0
 --- !u!54 &84564772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -972,6 +975,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.1
   IsEscaping: 0
+  IsPenned: 0
 --- !u!54 &308958711
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1536,6 +1540,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.1
   IsEscaping: 0
+  IsPenned: 0
 --- !u!54 &763170905
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2037,39 +2042,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0016589356
+      value: 0.00148
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.07641211
+      value: 0.0783
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.667669
+      value: 0.66178584
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.057233006
+      value: -0.105341166
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.16616923
+      value: 0.21802166
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.72341573
+      value: 0.7095134
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -69.755
+      value: -153.33301
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 66.3
+      value: 188.954
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -61.71
+      value: -88.140015
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5ea4009c35437d84cab523a67273108c, type: 3}
       propertyPath: m_Name
@@ -2105,6 +2110,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.1
   IsEscaping: 0
+  IsPenned: 0
 --- !u!54 &1190358810
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2270,6 +2276,21 @@ MonoBehaviour:
   AllowedDistance: 10
   BufferDistance: 10
   FollowSpeed: 0.5
+--- !u!114 &1216269791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216269788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 098412b5d63cf5b42aa9e360d329bc6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 50
+  Mana: 0
+  DamageMod: 0
 --- !u!4 &1255331512 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7469347856854211941, guid: 513788f15e9fb494296e6915b0bed087, type: 3}
@@ -2694,7 +2715,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.4
+  m_Radius: 0.3
   m_Height: 2
   m_Direction: 1
   m_Center: {x: -0.000001847744, y: 0.0000019073486, z: -0.0000005662441}
@@ -2770,7 +2791,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d673b822a0c6584c8673a5d63b04405, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HasKey: 1
+  HasKey: 0
+--- !u!135 &1555206988
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555206986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 8
+  m_Center: {x: 0, y: 3, z: 0}
 --- !u!4 &1555206997 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1293029876712600392, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
@@ -4007,6 +4041,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.1
   IsEscaping: 0
+  IsPenned: 0
 --- !u!54 &2099889189
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6373,6 +6408,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.2
   IsEscaping: 0
+  IsPenned: 1
 --- !u!54 &1364588950636419888
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7189,6 +7225,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.2
   IsEscaping: 0
+  IsPenned: 1
 --- !u!54 &2084029105557248837
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8461,6 +8498,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.2
   IsEscaping: 0
+  IsPenned: 1
 --- !u!54 &2578225861893612999
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8529,6 +8567,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.2
   IsEscaping: 0
+  IsPenned: 1
 --- !u!54 &2589919818478849897
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13866,6 +13905,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.2
   IsEscaping: 0
+  IsPenned: 1
 --- !u!54 &6001317049274716191
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14545,6 +14585,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.2
   IsEscaping: 0
+  IsPenned: 1
 --- !u!54 &6723026566970347634
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15954,6 +15995,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.2
   IsEscaping: 0
+  IsPenned: 1
 --- !u!54 &7805368427966514235
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16022,6 +16064,7 @@ MonoBehaviour:
   BufferDistance: 30
   FollowSpeed: 0.2
   IsEscaping: 0
+  IsPenned: 1
 --- !u!54 &7810562970495725213
 Rigidbody:
   m_ObjectHideFlags: 0
