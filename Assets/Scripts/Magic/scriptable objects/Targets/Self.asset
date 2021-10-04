@@ -15,4 +15,4 @@ MonoBehaviour:
   caster: {fileID: 0}
   _type: 1
   TargetRange: 1
-  EffectRadius: 1
+  EffectRadius: 2
