@@ -43,7 +43,7 @@ public class Follower : MonoBehaviour
     else if (!IsPenned && distance > AllowedDistance && distance < MinDistance)
     {
       transform.LookAt(Player.transform);
-      transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, FollowSpeed);
+      transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, FollowSpeed * Time.deltaTime);
     }
   }
 }
