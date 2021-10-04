@@ -183,6 +183,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (10)
@@ -425,6 +433,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (19)
@@ -442,6 +458,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (2)
@@ -546,10 +570,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.1
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 0
   PM: {fileID: 0}
@@ -1043,6 +1067,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!1001 &180550179
@@ -1056,6 +1088,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (5)
@@ -1127,6 +1167,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (11)
@@ -1460,6 +1508,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!4 &269285233 stripped
@@ -1526,6 +1582,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &277229569 stripped
@@ -1588,6 +1652,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (2)
@@ -1849,6 +1921,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!1001 &309544439
@@ -1862,6 +1942,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (10)
@@ -1971,6 +2059,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!1 &311100045
@@ -2309,6 +2405,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (5)
@@ -2513,6 +2617,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &364485590 stripped
@@ -2580,6 +2692,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (17)
@@ -2645,6 +2765,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &447710057 stripped
@@ -2969,6 +3097,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!1001 &599918274
@@ -3088,6 +3224,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (12)
@@ -3149,6 +3293,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (14)
@@ -3228,6 +3380,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (8)
@@ -3333,6 +3493,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (7)
@@ -3460,6 +3628,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!1001 &721419316
@@ -3521,6 +3697,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &742546964 stripped
@@ -3587,6 +3771,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &788826686 stripped
@@ -3884,6 +4076,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (3)
@@ -4011,6 +4211,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!1001 &878670659
@@ -4072,6 +4280,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!1001 &898003402
@@ -4129,6 +4345,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (15)
@@ -4194,6 +4418,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &911962074 stripped
@@ -4317,6 +4549,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!1001 &984650414
@@ -4378,6 +4618,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &995192495 stripped
@@ -4651,6 +4899,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (1)
@@ -4772,6 +5028,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (9)
@@ -4934,6 +5198,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (16)
@@ -4956,6 +5228,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (3)
@@ -5108,10 +5388,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.1
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 0
   PM: {fileID: 0}
@@ -5257,6 +5537,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig
@@ -5426,6 +5714,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &1255331512 stripped
@@ -5507,6 +5803,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!1001 &1311747999
@@ -5605,13 +5909,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322907269}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.5, y: -25.6, z: 73}
+  m_LocalRotation: {x: -0, y: -0.8899701, z: -0, w: 0.45601892}
+  m_LocalPosition: {x: -15.6, y: -25.599976, z: -75.2}
   m_LocalScale: {x: 4.036175, y: 1, z: 12.07}
   m_Children: []
   m_Father: {fileID: 1586522238}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -125.739, z: 0}
 --- !u!64 &1322907271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5735,6 +6039,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!1001 &1341548801
@@ -5748,6 +6060,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (1)
@@ -5925,6 +6245,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (8)
@@ -5986,6 +6314,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (6)
@@ -6165,6 +6501,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (6)
@@ -6280,6 +6624,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (7)
@@ -6390,122 +6742,20 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (13)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
---- !u!1 &1498107980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1498107981}
-  - component: {fileID: 1498107985}
-  - component: {fileID: 1498107984}
-  - component: {fileID: 1498107982}
-  - component: {fileID: 1498107983}
-  m_Layer: 0
-  m_Name: EscapeBeam (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1498107981
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498107980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -86.5, y: 5.8, z: -511.2}
-  m_LocalScale: {x: 50, y: 50, z: 50}
-  m_Children: []
-  m_Father: {fileID: 1586522238}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1498107982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498107980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d7c2cd8e501e7247a407c81ab9ab3ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!136 &1498107983
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498107980}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.3
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: -0.000001847744, y: 0.0000019073486, z: -0.0000005662441}
---- !u!23 &1498107984
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498107980}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 7c2c447dd5e949a40b49c5e0d42e03ef, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1498107985
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498107980}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1517766446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6561,6 +6811,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (11)
@@ -6670,6 +6928,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &1564291355 stripped
@@ -6723,7 +6989,6 @@ Transform:
   - {fileID: 1322907270}
   - {fileID: 1375979361}
   - {fileID: 796108441}
-  - {fileID: 1498107981}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6887,6 +7152,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (4)
@@ -7790,6 +8063,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (9)
@@ -7860,6 +8141,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!1001 &1797627772
@@ -7921,6 +8210,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!1 &1799365988
@@ -8083,6 +8380,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!1001 &1804421621
@@ -8362,6 +8667,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!4 &1862430231 stripped
@@ -8490,6 +8803,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!4 &1905292992 stripped
@@ -8618,6 +8939,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!1001 &1921343337
@@ -8679,6 +9008,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!1001 &1936053550
@@ -8736,6 +9073,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (18)
@@ -9176,6 +9521,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!4 &2015682301 stripped
@@ -9247,6 +9600,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!4 &2050515835 stripped
@@ -9390,6 +9751,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!4 &2091946461 stripped
@@ -9456,6 +9825,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &2097360509 stripped
@@ -9527,6 +9904,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!1001 &2131428087
@@ -9584,6 +9969,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig (4)
@@ -10020,6 +10413,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 143401796390284378, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 143772963690502745, guid: c3ffb3c0073e2df45b501d29edbfbcd3, type: 3}
       propertyPath: m_Name
       value: Pig
@@ -10486,6 +10887,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 503701375984473481, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c114f2cdf7557064dbf7ea4f9ee76d51, type: 3}
 --- !u!4 &536578264322380251
@@ -12069,10 +12478,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.2
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 1
   PM: {fileID: 0}
@@ -12887,10 +13296,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.2
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 1
   PM: {fileID: 0}
@@ -14161,10 +14570,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.2
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 1
   PM: {fileID: 0}
@@ -14231,10 +14640,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.2
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 1
   PM: {fileID: 0}
@@ -18385,6 +18794,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421819631090460901, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1ffd3e3d2fbb146865ea52b0f987e2, type: 3}
 --- !u!4 &5422441125230025481
@@ -19629,10 +20046,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.2
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 1
   PM: {fileID: 0}
@@ -20310,10 +20727,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.2
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 1
   PM: {fileID: 0}
@@ -21205,6 +21622,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7147284525320255104, guid: f2aa80fd4a32ff649bab51b424adc7bf, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147284525320255104, guid: f2aa80fd4a32ff649bab51b424adc7bf, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7149106544431449111, guid: f2aa80fd4a32ff649bab51b424adc7bf, type: 3}
       propertyPath: m_Name
       value: SheepWhite
@@ -21471,6 +21896,14 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1555206986}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: FollowSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431958692143957110, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
+      propertyPath: MinDistance
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7433145406658336118, guid: 7daaeb5964357944ea4fc211262dd328, type: 3}
       propertyPath: m_Name
       value: ChickenBrown (1)
@@ -21843,10 +22276,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.2
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 1
   PM: {fileID: 0}
@@ -21913,10 +22346,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1555206986}
-  MinDistance: 75
+  MinDistance: 120
   AllowedDistance: 20
   BufferDistance: 30
-  FollowSpeed: 0.2
+  FollowSpeed: 20
   IsEscaping: 0
   IsPenned: 1
   PM: {fileID: 0}
