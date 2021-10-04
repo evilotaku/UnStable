@@ -12,13 +12,14 @@ public class Follower : MonoBehaviour
   public float FollowSpeed = 0.2f;
   public RaycastHit Shot; // maybe raycast to check if animal can see you
   public bool IsEscaping;
+  public bool IsPenned = true;
 
-  private PlayerManager _pm;
+  public PlayerManager PM;
   
 
   private void Start()
   {
-    _pm = Player.GetComponent<PlayerManager>();
+    PM = Player.GetComponent<PlayerManager>();
   }
 
   void Update()
@@ -37,7 +38,7 @@ public class Follower : MonoBehaviour
     {
       // reset
     }
-    else if (_pm.HasKey && distance > AllowedDistance && distance < MinDistance)
+    else if (!IsPenned && distance > AllowedDistance && distance < MinDistance)
     {
       transform.LookAt(Player.transform);
       transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, FollowSpeed);
